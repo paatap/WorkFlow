@@ -29,47 +29,15 @@
 <script type="text/javascript" src='isomorphic/system/modules/ISC_Calendar.js'></script>
 <script type="text/javascript" src='isomorphic/system/modules/ISC_Drawing.js'></script>
 <script type="text/javascript" src='isomorphic/skins/EnterpriseBlue/load_skin.js'></script>
+<!---->
 
 
 <body>
-<SCRIPT>
 
-    isc.HLayout.create({
-        width: "100%",
-        height: "100%",
-        members: [
-            isc.Label.create({
-                contents: "Navigation",
-                align: "center",
-                overflow: "hidden",
-                width: "30%",
-                showResizeBar: true,
-                border: "1px solid blue"
-            }),
-            isc.VLayout.create({
-                width: "70%",
-                members: [
-                    isc.Label.create({
-                        contents: "Listing",
-                        align: "center",
-                        overflow: "hidden",
-                        height: "30%",
-                        showResizeBar: true,
-                        border: "1px solid blue"
-                    }),
-                    isc.Label.create({
-                        contents: "Details",
-                        align: "center",
-                        overflow: "hidden",
-                        height: "70%",
-                        border: "1px solid blue"
-                    })
-                ]
-            })
-        ]
-    });
+<script type="text/javascript" src='js/main/navigator.js'></script>
+<script type="text/javascript" src='js/main/top.js'></script>
+<script type="text/javascript" src='js/main/bottom.js'></script>
+<script type="text/javascript" src='js/main/main.js'></script>
 
-
-</SCRIPT>
 </body>
 </html>
