@@ -1,0 +1,11 @@
+Import ->maven ->existent project
+
+Run-> Debug configuration->Maven->New
+Name =  Tomcat
+Base dir = ${workspace_loc:/WorkFlow}
+Goal = clean package tomcat7:run
+
+
+
+After run
+http://localhost:8080/WorkFlow/Index.html

@@ -12,13 +12,7 @@
 	</properties>
 	<build>
 		<plugins>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-war-plugin</artifactId>
-				<configuration>
-					<failOnMissingWebXml>false</failOnMissingWebXml>
-				</configuration>
-			</plugin>
+			
 			<plugin>
 				<artifactId>maven-compiler-plugin</artifactId>
 				<configuration>
@@ -32,8 +26,7 @@
 				<artifactId>tomcat7-maven-plugin</artifactId>
 				<configuration>
 					<port>8080</port>
-					<path>/</path>
-					<warSourceDirectory>${basedir}/src/webapp</warSourceDirectory>
+					<path>/WorkFlow</path>
 					
 				</configuration>
 			</plugin>
